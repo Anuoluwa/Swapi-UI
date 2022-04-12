@@ -39,10 +39,10 @@ const DropDownItem = styled.li`
     list-style: none;
     font-size: 16px;
     padding: 0.5rem 0;
-    color: #0070f3;
+    color: black;
     cursor: pointer;
-    border-bottom: 1px solid #F5F5F5;
-    border-left: 10px solid
+    border-bottom: 5px solid #F5F5F5;
+    border-left: 14px solid
 `;
 
 
