@@ -21,7 +21,6 @@ const PersonComponent : FunctionComponent<{data: Person}> = ({ data }) => {
             </Title>
             <Row>Mass:<span>{data.mass}</span></Row>
             <Row>Height:<span>{data.height}</span></Row>
-            <Row>Mass:<span>{data.mass}</span></Row>
 
             <SubTitle>Home World</SubTitle>
             <HomeWorldList>

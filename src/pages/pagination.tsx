@@ -19,7 +19,7 @@ const PaginationStyle = styled.div`
   margin: 2rem 0;
   border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 1rem;
   & > * {
     margin: 0;
     padding: 15px 30px;
@@ -57,7 +57,7 @@ const Pagination: FunctionComponent<PaginationProps> = ({ page, count }) => {
       <p>
         Page {page} of {pageCount}
       </p>
-      <p>{count} Items Total</p>
+      <p>Total {count}</p>
       <Link to={`/?page=${page + 1}`}>
       <button disabled={page === pageCount} >Next → </button>
         {/* */}
